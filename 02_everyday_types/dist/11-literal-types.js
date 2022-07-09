@@ -10,3 +10,4 @@ function printText(s, alignment) {
 }
 printText('hello', 'left');
 // printText('hello', 'left2') error 类型“"left2"”的参数不能赋给类型“"left" | "right" | "center"”的参数
+// let x3: 123 = 456 errror 不能将类型“456”分配给类型“123”
