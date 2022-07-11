@@ -9,10 +9,9 @@ printCoord({
 });
 // 对象某个属性可有可无 要在冒号前加问号
 function printName(obj) {
-    var _a;
     console.log(obj);
     // 因为obj.last可有可无 所以用?.
-    console.log((_a = obj.last) === null || _a === void 0 ? void 0 : _a.toUpperCase());
+    console.log(obj.last?.toUpperCase());
 }
 printName({
     first: 'li'
